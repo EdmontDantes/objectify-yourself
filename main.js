@@ -73,6 +73,6 @@ const myOwnObj = {
 
 
 // As a further stretch goal, add a function that takes in a key name as a string and changes the corresponding value in the object you just made to be the string 'overwritten DYNAMICALLY'. Now call it with the name of one of your keys and see if it works! This will all take some research... Good luck!
-const changeMyOwnObj = function(keyName) {
-  myOwnObj['']
+const changeMyOwnObj = function(keyNameOld, KeyNameNew) {
+  return myOwnObj[keyNameOld] = myOwnObj[KeyNameNew]
 }
